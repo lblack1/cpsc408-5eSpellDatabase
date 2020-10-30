@@ -256,8 +256,6 @@ def generate_ID(table):
 			else:
 				break
 
-	print(id)
-
 	return id
 
 
