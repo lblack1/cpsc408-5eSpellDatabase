@@ -19,7 +19,7 @@ public class Interface {
 		Statement stmt = conn.createStatement();
 		ResultSet rs = stmt.executeQuery(sql);
 
-		int id = 1;
+		int id = 0;
 		while (rs.next()) {
 			if (id == rs.getInt(1)) {
 				id++;
